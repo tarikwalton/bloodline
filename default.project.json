@@ -1,0 +1,37 @@
+{
+  "name": "bloodline",
+  "emitLegacyScripts": true,
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedFirst": {
+      "$className": "ReplicatedFirst",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ReplicatedFirst"
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ReplicatedStorage"
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "$path": "src/ServerScriptService"
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterPlayer/StarterPlayerScripts"
+      },
+      "StarterCharacterScripts": {
+        "$className": "StarterCharacterScripts",
+        "$ignoreUnknownInstances": true,
+        "$path": "src/StarterPlayer/StarterCharacterScripts"
+      }
+    }
+  },
+  "globIgnorePaths": ["**/.gitkeep"]
+}
